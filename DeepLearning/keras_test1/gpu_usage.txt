@@ -1,0 +1,10 @@
+Every 0.1s: nvidia-settings -q GPUUtilization -q useddedicatedgpumemory                                     Thu Jun  1 12:31:40 2017
+
+
+  Attribute 'GPUUtilization' (kaikai-Aspire-3830TG:0[gpu:0]): graphics=99,
+  memory=28, video=0, PCIe=2
+
+  Attribute 'UsedDedicatedGPUMemory' (kaikai-Aspire-3830TG:0[gpu:0]): 398.
+    'UsedDedicatedGPUMemory' is an integer attribute.
+    'UsedDedicatedGPUMemory' is a read-only attribute.
+    'UsedDedicatedGPUMemory' can use the following target types: GPU.

@@ -1,0 +1,30 @@
+Using Theano backend.
+Can not use cuDNN on context None: cannot compile with cuDNN. We got this error:
+b'/tmp/try_flags_ii1758i6.c:4:19: fatal error: cudnn.h: No such file or directory\ncompilation terminated.\n'
+Mapped name None to device cuda: GeForce GT 540M (0000:01:00.0)
+keras_test1.py:32: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu", input_shape=(1, 28, 28...)`
+  model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(1,28,28)))
+keras_test1.py:33: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu")`
+  model.add(Convolution2D(32, 3, 3, activation='relu'))
+/home/kaikai/anaconda3/lib/python3.6/site-packages/keras/models.py:837: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  warnings.warn('The `nb_epoch` argument in `fit` '
+Epoch 1/10
+60000/60000 [==============================] - 242s - loss: 0.2057 - acc: 0.9365      
+Epoch 2/10
+60000/60000 [==============================] - 200s - loss: 0.0852 - acc: 0.9739     
+Epoch 3/10
+60000/60000 [==============================] - 214s - loss: 0.0638 - acc: 0.9801     
+Epoch 4/10
+60000/60000 [==============================] - 201s - loss: 0.0541 - acc: 0.9839     
+Epoch 5/10
+60000/60000 [==============================] - 241s - loss: 0.0469 - acc: 0.9856     
+Epoch 6/10
+60000/60000 [==============================] - 318s - loss: 0.0397 - acc: 0.9874     
+Epoch 7/10
+60000/60000 [==============================] - 212s - loss: 0.0377 - acc: 0.9877     
+Epoch 8/10
+60000/60000 [==============================] - 196s - loss: 0.0331 - acc: 0.9899     
+Epoch 9/10
+60000/60000 [==============================] - 201s - loss: 0.0298 - acc: 0.9901     
+Epoch 10/10
+60000/60000 [==============================] - 233s - loss: 0.0264 - acc: 0.9913

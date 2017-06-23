@@ -1,0 +1,27 @@
+Using Theano backend.
+keras_test1.py:32: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu", input_shape=(1, 28, 28...)`
+  model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(1,28,28)))
+keras_test1.py:33: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu")`
+  model.add(Convolution2D(32, 3, 3, activation='relu'))
+/home/kaikai/anaconda3/lib/python3.6/site-packages/keras/models.py:837: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  warnings.warn('The `nb_epoch` argument in `fit` '
+Epoch 1/10
+60000/60000 [==============================] - 218s - loss: 0.2040 - acc: 0.9376     
+Epoch 2/10
+60000/60000 [==============================] - 260s - loss: 0.0845 - acc: 0.9741     
+Epoch 3/10
+60000/60000 [==============================] - 283s - loss: 0.0651 - acc: 0.9799     
+Epoch 4/10
+60000/60000 [==============================] - 299s - loss: 0.0537 - acc: 0.9833     
+Epoch 5/10
+60000/60000 [==============================] - 283s - loss: 0.0457 - acc: 0.9855     
+Epoch 6/10
+60000/60000 [==============================] - 301s - loss: 0.0400 - acc: 0.9876     
+Epoch 7/10
+60000/60000 [==============================] - 341s - loss: 0.0364 - acc: 0.9886     
+Epoch 8/10
+60000/60000 [==============================] - 267s - loss: 0.0337 - acc: 0.9897     
+Epoch 9/10
+60000/60000 [==============================] - 227s - loss: 0.0285 - acc: 0.9912     
+Epoch 10/10
+60000/60000 [==============================] - 240s - loss: 0.0271 - acc: 0.9910
